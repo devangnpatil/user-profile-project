@@ -17,7 +17,7 @@ export default () => {
 				<div className="search-bar-section">
 				<Form>
 					<div className="row">
-						<div className="col-sm-9">
+						<div className="col-sm-8">
 							<Form.Group controlId="formSearchInputBox">
 								<Form.Control type="text" placeholder="Enter a Job Description" />
 							</Form.Group>
@@ -27,8 +27,8 @@ export default () => {
 						</div>
 					</div>
 					<div className="row">
-						<div className="col-sm-5">
-							<Form.Group controlId="formBasicChecbox">
+						<div className="col-sm-4">
+							<Form.Group className="select-job">
 									<Form.Check inline type="checkbox" label="Full Time" />
 									<Form.Check inline type="checkbox" label="Part Time / Casual / Freelnce" />
 							</Form.Group>
@@ -48,7 +48,7 @@ export default () => {
 				</Form>
 				</div>
 				<div className="register-button-wrapper">
-					<button type="button" className="btn-register">Register</button>
+					<button type="button" className="btn btn-primary btn-register">Register</button>
 				</div>
 			</div>
 			</div>

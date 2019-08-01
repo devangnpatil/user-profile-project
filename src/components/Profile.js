@@ -1,5 +1,6 @@
 import React from 'react'
 import profileImg from '../images/profile-image.png'
+import '../static/css/Profile.css'
 export default () => {
 	return (
 		<div className="profile-section">
